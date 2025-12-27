@@ -1,4 +1,14 @@
-3903
+3906
+94E:\home\parcel-handlebars-project\node_modules\@swc\helpers\esm\_ts_add_disposable_resource.js134113353084442629 0
+96E:\home\parcel-handlebars-project\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Doxyfile134113352981495556 0
+38E:\home\parcel-handlebars-project\dist134113367078634186 1
+87E:\home\parcel-handlebars-project\node_modules\@swc\helpers\_\_class_private_field_init134113353088429837 1
+70E:\home\parcel-handlebars-project\node_modules\neo-async\eachSeries.js134113353031873545 0
+102E:\home\parcel-handlebars-project\node_modules\@swc\helpers\_\_initializer_warning_helper\package.json134113353091252288 0
+78E:\home\parcel-handlebars-project\node_modules\parcel-transformer-hbs\index.js134113352937938186 0
+68E:\home\parcel-handlebars-project\node_modules\dotenv-expand\LICENSE134113352937140328 0
+78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\PS.js134113353146946166 0
+44E:\home\parcel-handlebars-project\.gitignore134113365585512965 0
 74E:\home\parcel-handlebars-project\node_modules\@parcel\rust\src\browser.js134113352953275504 0
 87E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\web-serial.js134113353154431880 0
 43E:\home\parcel-handlebars-project\.parcelrc134113352936250567 0
@@ -6,7 +16,7 @@
 70E:\home\parcel-handlebars-project\node_modules\nullthrows\package.json134113352936910942 0
 98E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\font-family-system-ui.js134113353102427975 0
 101E:\home\parcel-handlebars-project\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb.c134113353042266123 0
-38E:\home\parcel-handlebars-project\docs134113364277720997 1
+38E:\home\parcel-handlebars-project\docs134113367140529371 1
 78E:\home\parcel-handlebars-project\node_modules\@swc\helpers\cjs\_using_ctx.cjs134113353066919456 0
 59E:\home\parcel-handlebars-project\node_modules\caniuse-lite134113353155620585 1
 91E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\css-dir-pseudo.js134113353084342889 0
@@ -16,18 +26,13 @@
 87E:\home\parcel-handlebars-project\node_modules\handlebars\dist\cjs\handlebars\logger.js134113353070732192 0
 82E:\home\parcel-handlebars-project\node_modules\@swc\helpers\_\_update\package.json134113353096088309 0
 41E:\home\parcel-handlebars-project\data.js134113355037686177 0
-94E:\home\parcel-handlebars-project\node_modules\@swc\helpers\esm\_ts_add_disposable_resource.js134113353084442629 0
-96E:\home\parcel-handlebars-project\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Doxyfile134113352981495556 0
-38E:\home\parcel-handlebars-project\dist134113363225216313 1
-87E:\home\parcel-handlebars-project\node_modules\@swc\helpers\_\_class_private_field_init134113353088429837 1
-70E:\home\parcel-handlebars-project\node_modules\neo-async\eachSeries.js134113353031873545 0
 91E:\home\parcel-handlebars-project\node_modules\@parcel\reporter-dev-server\src\HMRServer.js134113352965836984 0
 57E:\home\parcel-handlebars-project\node_modules\json5\dist134113353013615145 1
 76E:\home\parcel-handlebars-project\node_modules\semver\functions\satisfies.js134113353032432057 0
 83E:\home\parcel-handlebars-project\node_modules\@swc\helpers\esm\_async_generator.js134113353068886166 0
 66E:\home\parcel-handlebars-project\node_modules\neo-async\sortBy.js134113353058044363 0
 83E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\srcset.js134113353151306416 0
-44E:\home\parcel-handlebars-project\index.html134113350896845768 0
+44E:\home\parcel-handlebars-project\index.html134113367060299340 0
 117E:\home\parcel-handlebars-project\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file\src\index.js134113353057870353 0
 78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\TZ.js134113353152740004 0
 74E:\home\parcel-handlebars-project\node_modules\@swc\helpers\cjs\_throw.cjs134113353049152023 0
@@ -37,17 +42,17 @@
 85E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\jpeg2000.js134113353126708738 0
 94E:\home\parcel-handlebars-project\node_modules\@swc\helpers\_\_is_native_function\package.json134113353091332075 0
 74E:\home\parcel-handlebars-project\node_modules\type-fest\source\entry.d.ts134113352998007262 0
-42E:\home\parcel-handlebars-project\index.js134113360224762458 0
+42E:\home\parcel-handlebars-project\index.js134113367077274132 0
+46E:\home\parcel-handlebars-project\node_modules134113360160086258 1
+84E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\rellist.js134113353149619566 0
+57E:\home\parcel-handlebars-project\node_modules\source-map134113353013764743 1
 88E:\home\parcel-handlebars-project\node_modules\@parcel\optimizer-svg\lib\SVGOptimizer.js134113352940699496 0
 69E:\home\parcel-handlebars-project\node_modules\update-browserslist-db134113352972646316 1
 78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\NG.js134113353143902532 0
 51E:\home\parcel-handlebars-project\package-lock.json134113360160684738 0
-46E:\home\parcel-handlebars-project\node_modules134113360160086258 1
-84E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\rellist.js134113353149619566 0
-57E:\home\parcel-handlebars-project\node_modules\source-map134113353013764743 1
 98E:\home\parcel-handlebars-project\node_modules\handlebars\dist\cjs\handlebars\decorators\inline.js134113353068846277 0
 72E:\home\parcel-handlebars-project\node_modules\@parcel\packager-wasm\src134113352967622201 1
-46E:\home\parcel-handlebars-project\package.json134113360107572795 0
+46E:\home\parcel-handlebars-project\package.json134113365174314691 0
 57E:\home\parcel-handlebars-project\node_modules\handlebars134113353089058154 1
 56E:\home\parcel-handlebars-project\node_modules\@swc\core134113352997478681 1
 78E:\home\parcel-handlebars-project\node_modules\@parcel\utils\src\objectHash.js134113353042256144 0
@@ -101,8 +106,8 @@
 87E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\decorators.js134113353100507241 0
 72E:\home\parcel-handlebars-project\node_modules\semver\functions\major.js134113353016716849 0
 65E:\home\parcel-handlebars-project\node_modules\dotenv\lib\main.js134113352965088978 0
-91E:\home\parcel-handlebars-project\node_modules\handlebars\dist\amd\handlebars\helpers\if.js134113353067927786 0
 51E:\home\parcel-handlebars-project\node_modules\@swc134113360160126153 1
+91E:\home\parcel-handlebars-project\node_modules\handlebars\dist\amd\handlebars\helpers\if.js134113353067927786 0
 91E:\home\parcel-handlebars-project\node_modules\@parcel\utils\test\input\sourcemap\inline.js134113353039174392 0
 81E:\home\parcel-handlebars-project\node_modules\msgpackr-extract\node_modules\.bin134113353156009574 1
 56E:\home\parcel-handlebars-project\node_modules\picomatch134113352986788092 1
@@ -246,9 +251,6 @@
 94E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\wasm-multi-memory.js134113353153354773 0
 67E:\home\parcel-handlebars-project\node_modules\postcss-value-parser134113352973706403 1
 79E:\home\parcel-handlebars-project\node_modules\node-gyp-build-optional-packages134113352968265568 1
-86E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\shadowdom.js134113353151009248 0
-86E:\home\parcel-handlebars-project\node_modules\ordered-binary\.idea\ordered-binary.iml134113352948200484 0
-60E:\home\parcel-handlebars-project\node_modules\react-refresh134113352982868320 1
 63E:\home\parcel-handlebars-project\node_modules\@parcel\core\lib134113353091371967 1
 60E:\home\parcel-handlebars-project\node_modules\node-releases134113352967766901 1
 77E:\home\parcel-handlebars-project\node_modules\@parcel\core\src\Dependency.js134113353043762110 0
@@ -267,6 +269,9 @@
 72E:\home\parcel-handlebars-project\node_modules\@parcel\fs\lib\types.d.ts134113353015440260 0
 88E:\home\parcel-handlebars-project\node_modules\@swc\helpers\_\_to_primitive\package.json134113353094090646 0
 86E:\home\parcel-handlebars-project\node_modules\handlebars\dist\cjs\handlebars\compiler134113353087691815 1
+86E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\shadowdom.js134113353151009248 0
+86E:\home\parcel-handlebars-project\node_modules\ordered-binary\.idea\ordered-binary.iml134113352948200484 0
+60E:\home\parcel-handlebars-project\node_modules\react-refresh134113352982868320 1
 97E:\home\parcel-handlebars-project\node_modules\lightningcss\node_modules\detect-libc\package.json134113352968285512 0
 66E:\home\parcel-handlebars-project\node_modules\regenerator-runtime134113352964340981 1
 97E:\home\parcel-handlebars-project\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\chacha8.c134113353030333745 0
@@ -1105,9 +1110,6 @@
 90E:\home\parcel-handlebars-project\node_modules\lmdb\node_modules\node-addon-api\LICENSE.md134113353015599836 0
 68E:\home\parcel-handlebars-project\node_modules\picocolors\types.d.ts134113352968705240 0
 81E:\home\parcel-handlebars-project\node_modules\handlebars\dist\cjs\precompiler.js134113353076257804 0
-102E:\home\parcel-handlebars-project\node_modules\@swc\helpers\_\_initializer_warning_helper\package.json134113353091252288 0
-78E:\home\parcel-handlebars-project\node_modules\parcel-transformer-hbs\index.js134113352937938186 0
-68E:\home\parcel-handlebars-project\node_modules\dotenv-expand\LICENSE134113352937140328 0
 88E:\home\parcel-handlebars-project\node_modules\lmdb\node_modules\node-addon-api\index.js134113353014612480 0
 79E:\home\parcel-handlebars-project\node_modules\parcel-transformer-hbs\README.md134113352948639319 0
 74E:\home\parcel-handlebars-project\node_modules\@parcel\workers\lib\process134113353030104086 1
@@ -2084,6 +2086,7 @@
 95E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\picture-in-picture.js134113353145756392 0
 72E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions134113353155491985 1
 78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\AD.js134113352972626375 0
+76E:\home\parcel-handlebars-project\docs\parcel-handlebars-project.48ac6d25.js134113367140379777 0
 65E:\home\parcel-handlebars-project\node_modules\@parcel\logger\src134113352947821504 1
 102E:\home\parcel-handlebars-project\node_modules\@parcel\package-manager\test\NodePackageManager.test.js134113353016507410 0
 89E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\currentcolor.js134113353099698646 0
@@ -2205,7 +2208,7 @@
 90E:\home\parcel-handlebars-project\node_modules\@parcel\types-internal\lib\SemverRange.d.ts134113353019412505 0
 85E:\home\parcel-handlebars-project\node_modules\@swc\helpers\cjs\_array_with_holes.cjs134113352965467968 0
 81E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\webp.js134113353154861335 0
-80E:\home\parcel-handlebars-project\dist\parcel-handlebars-project.e02fbd41.js.map134113363225206343 0
+80E:\home\parcel-handlebars-project\dist\parcel-handlebars-project.e02fbd41.js.map134113367078624212 0
 78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\HT.js134113353104778941 0
 85E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\push-api.js134113353148901541 0
 78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\HU.js134113353105185277 0
@@ -2228,8 +2231,8 @@
 78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\KI.js134113353127719988 0
 78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\KM.js134113353127739936 0
 93E:\home\parcel-handlebars-project\node_modules\@parcel\error-overlay\src\utils\stack-frame.js134113353019173125 0
-78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\KP.js134113353127763130 0
 59E:\home\parcel-handlebars-project\node_modules\@swc\helpers134113353098511821 1
+78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\KP.js134113353127763130 0
 78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\LA.js134113353127872828 0
 78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\LB.js134113353128022430 0
 78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\LC.js134113353128034882 0
@@ -2289,7 +2292,6 @@
 78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\PL.js134113353145996777 0
 78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\PM.js134113353146024236 0
 91E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\array-includes.js134113353031166721 0
-78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\PS.js134113353146946166 0
 78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\PT.js134113353147992962 0
 78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\PW.js134113353149264924 0
 78E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\regions\PY.js134113353149282916 0
@@ -2703,7 +2705,7 @@
 65E:\home\parcel-handlebars-project\node_modules\@parcel\events\src134113352993499317 1
 84E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\wasm-gc.js134113353153334819 0
 97E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\wasm-mutable-globals.js134113353154082826 0
-49E:\home\parcel-handlebars-project\dist\index.html134113363225136530 0
+49E:\home\parcel-handlebars-project\dist\index.html134113367078354939 0
 90E:\home\parcel-handlebars-project\node_modules\@parcel\workers\src\process\ProcessChild.js134113353030024258 0
 97E:\home\parcel-handlebars-project\node_modules\caniuse-lite\data\features\wasm-reference-types.js134113353154142664 0
 66E:\home\parcel-handlebars-project\node_modules\@parcel\logger\test134113352952704233 1
@@ -2741,6 +2743,7 @@
 62E:\home\parcel-handlebars-project\node_modules\braces\index.js134113352965098954 0
 57E:\home\parcel-handlebars-project\node_modules\braces\lib134113352974893229 1
 61E:\home\parcel-handlebars-project\node_modules\braces\LICENSE134113352937269979 0
+80E:\home\parcel-handlebars-project\docs\parcel-handlebars-project.48ac6d25.js.map134113367140519392 0
 78E:\home\parcel-handlebars-project\node_modules\@swc\helpers\src\_using_ctx.mjs134113353099608890 0
 63E:\home\parcel-handlebars-project\node_modules\braces\README.md134113352988330414 0
 70E:\home\parcel-handlebars-project\node_modules\braces\lib\constants.js134113352948080804 0
@@ -3898,7 +3901,7 @@
 88E:\home\parcel-handlebars-project\node_modules\.bin\node-gyp-build-optional-packages.ps1134113353156089360 0
 62E:\home\parcel-handlebars-project\node_modules\.bin\semver.ps1134113353156009574 0
 78E:\home\parcel-handlebars-project\node_modules\.bin\update-browserslist-db.cmd134113353156069407 0
-49E:\home\parcel-handlebars-project\docs\index.html134113364277421246 0
+49E:\home\parcel-handlebars-project\docs\index.html134113367140379777 0
 76E:\home\parcel-handlebars-project\docs\parcel-handlebars-project.e02fbd41.js134113360226306479 0
 80E:\home\parcel-handlebars-project\docs\parcel-handlebars-project.e02fbd41.js.map134113360226346369 0
-76E:\home\parcel-handlebars-project\dist\parcel-handlebars-project.e02fbd41.js134113363225146496 0
+76E:\home\parcel-handlebars-project\dist\parcel-handlebars-project.e02fbd41.js134113367078574350 0

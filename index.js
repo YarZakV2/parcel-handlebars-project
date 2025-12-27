@@ -1,5 +1,5 @@
 import { products } from './data.js';
-import Handlebars from 'handlebars';
+const Handlebars = window.Handlebars;
 
 const templateSource = `
 <ul>
