@@ -207,11 +207,11 @@
       });
     }
   }
-})({"kxwl6":[function(require,module,exports,__globalThis) {
+})({"jRuxe":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 1234;
+var HMR_SERVER_PORT = 60311;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -742,17 +742,20 @@ const products = [
     {
         id: 1,
         name: 'Laptop',
-        price: 1200
+        price: 1500,
+        description: 'A high-performance laptop for all your needs.'
     },
     {
         id: 2,
-        name: 'Phone',
-        price: 800
+        name: 'Smartphone',
+        price: 700,
+        description: 'A modern smartphone with an excellent camera.'
     },
     {
         id: 3,
         name: 'Headphones',
-        price: 200
+        price: 200,
+        description: 'Noise-cancelling headphones for better focus.'
     }
 ];
 
@@ -811,35 +814,49 @@ const templateFunction = (0, _handlebarsDefault.default).template({
                     "column": 23
                 }
             }
-        }) : helper)) + "\">\r\n      " + alias4((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+        }) : helper)) + "\">\r\n      <strong>" + alias4((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
             "name": "name",
             "hash": {},
             "data": data,
             "loc": {
                 "start": {
                     "line": 4,
-                    "column": 6
+                    "column": 14
                 },
                 "end": {
                     "line": 4,
-                    "column": 14
+                    "column": 22
                 }
             }
-        }) : helper)) + " \u2014 " + alias4((helper = (helper = lookupProperty(helpers, "price") || (depth0 != null ? lookupProperty(depth0, "price") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+        }) : helper)) + "</strong> \u2014 " + alias4((helper = (helper = lookupProperty(helpers, "price") || (depth0 != null ? lookupProperty(depth0, "price") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
             "name": "price",
             "hash": {},
             "data": data,
             "loc": {
                 "start": {
                     "line": 4,
-                    "column": 17
+                    "column": 34
                 },
                 "end": {
                     "line": 4,
-                    "column": 26
+                    "column": 43
                 }
             }
-        }) : helper)) + "$\r\n      <button class=\"delete-btn\">Delete</button>\r\n    </li>\r\n";
+        }) : helper)) + "$<br>\r\n      " + alias4((helper = (helper = lookupProperty(helpers, "description") || (depth0 != null ? lookupProperty(depth0, "description") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+            "name": "description",
+            "hash": {},
+            "data": data,
+            "loc": {
+                "start": {
+                    "line": 5,
+                    "column": 6
+                },
+                "end": {
+                    "line": 5,
+                    "column": 21
+                }
+            }
+        }) : helper)) + "\r\n      <button class=\"delete-btn\">Delete</button>\r\n    </li>\r\n";
     },
     "compiler": [
         8,
@@ -862,7 +879,7 @@ const templateFunction = (0, _handlebarsDefault.default).template({
                     "column": 2
                 },
                 "end": {
-                    "line": 7,
+                    "line": 8,
                     "column": 11
                 }
             }
@@ -12044,6 +12061,6 @@ var isSourceNode = "$$$isSourceNode$$$";
 };
 exports.SourceNode = SourceNode;
 
-},{"a07d2c2c4b11c39f":"fWPsq","18d5ff036a08fa06":"5Iq0C"}]},["kxwl6","jOXmm"], "jOXmm", "parcelRequire94c2", {})
+},{"a07d2c2c4b11c39f":"fWPsq","18d5ff036a08fa06":"5Iq0C"}]},["jRuxe","jOXmm"], "jOXmm", "parcelRequire94c2", {})
 
 //# sourceMappingURL=parcel-handlebars-project.e02fbd41.js.map

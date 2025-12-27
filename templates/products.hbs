@@ -1,0 +1,9 @@
+<ul>
+  {{#each this}}
+    <li data-id="{{id}}">
+      <strong>{{name}}</strong> — {{price}}$<br>
+      {{description}}
+      <button class="delete-btn">Delete</button>
+    </li>
+  {{/each}}
+</ul>
