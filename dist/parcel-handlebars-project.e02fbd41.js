@@ -715,12 +715,12 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"jOXmm":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-var _data = require("./data");
+var _dataJs = require("./data.js");
 var _productsHbs = require("./templates/products.hbs");
 var _productsHbsDefault = parcelHelpers.interopDefault(_productsHbs);
 const app = document.querySelector('#app');
 let items = [
-    ...(0, _data.products)
+    ...(0, _dataJs.products)
 ];
 function render() {
     app.innerHTML = (0, _productsHbsDefault.default)(items);
@@ -734,7 +734,7 @@ app.addEventListener('click', (e)=>{
 });
 render();
 
-},{"./data":"fFIED","./templates/products.hbs":"6hZCB","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"fFIED":[function(require,module,exports,__globalThis) {
+},{"./data.js":"fFIED","./templates/products.hbs":"6hZCB","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"fFIED":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "products", ()=>products);

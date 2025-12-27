@@ -1,4 +1,4 @@
-import { products } from './data';
+import { products } from './data.js';
 import productsTemplate from './templates/products.hbs';
 
 const app = document.querySelector('#app');
