@@ -1,5 +1,19 @@
 import { products } from './data.js';
-import productsTemplate from './templates/products.hbs';
+import Handlebars from 'handlebars';
+
+const templateSource = `
+<ul>
+  {{#each this}}
+    <li data-id="{{id}}">
+      <strong>{{name}}</strong> — {{price}}$<br>
+      {{description}}
+      <button class="delete-btn">Delete</button>
+    </li>
+  {{/each}}
+</ul>
+`;
+
+const productsTemplate = Handlebars.compile(templateSource);
 
 const app = document.querySelector('#app');
 

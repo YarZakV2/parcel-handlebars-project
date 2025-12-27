@@ -207,11 +207,11 @@
       });
     }
   }
-})({"jRuxe":[function(require,module,exports,__globalThis) {
+})({"lpzWn":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 60311;
+var HMR_SERVER_PORT = 3000;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -716,14 +716,26 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 },{}],"jOXmm":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _dataJs = require("./data.js");
-var _productsHbs = require("./templates/products.hbs");
-var _productsHbsDefault = parcelHelpers.interopDefault(_productsHbs);
+var _handlebars = require("handlebars");
+var _handlebarsDefault = parcelHelpers.interopDefault(_handlebars);
+const templateSource = `
+<ul>
+  {{#each this}}
+    <li data-id="{{id}}">
+      <strong>{{name}}</strong> \u{2014} {{price}}$<br>
+      {{description}}
+      <button class="delete-btn">Delete</button>
+    </li>
+  {{/each}}
+</ul>
+`;
+const productsTemplate = (0, _handlebarsDefault.default).compile(templateSource);
 const app = document.querySelector('#app');
 let items = [
     ...(0, _dataJs.products)
 ];
 function render() {
-    app.innerHTML = (0, _productsHbsDefault.default)(items);
+    app.innerHTML = productsTemplate(items);
 }
 app.addEventListener('click', (e)=>{
     if (e.target.classList.contains('delete-btn')) {
@@ -734,7 +746,7 @@ app.addEventListener('click', (e)=>{
 });
 render();
 
-},{"./data.js":"fFIED","./templates/products.hbs":"6hZCB","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"fFIED":[function(require,module,exports,__globalThis) {
+},{"./data.js":"fFIED","handlebars":"9pFby","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"fFIED":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "products", ()=>products);
@@ -789,107 +801,7 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"6hZCB":[function(require,module,exports,__globalThis) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _handlebars = require("handlebars");
-var _handlebarsDefault = parcelHelpers.interopDefault(_handlebars);
-const templateFunction = (0, _handlebarsDefault.default).template({
-    "1": function(container, depth0, helpers, partials, data) {
-        var helper, alias1 = depth0 != null ? depth0 : container.nullContext || {}, alias2 = container.hooks.helperMissing, alias3 = "function", alias4 = container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
-            if (Object.prototype.hasOwnProperty.call(parent, propertyName)) return parent[propertyName];
-            return undefined;
-        };
-        return "    <li data-id=\"" + alias4((helper = (helper = lookupProperty(helpers, "id") || (depth0 != null ? lookupProperty(depth0, "id") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
-            "name": "id",
-            "hash": {},
-            "data": data,
-            "loc": {
-                "start": {
-                    "line": 3,
-                    "column": 17
-                },
-                "end": {
-                    "line": 3,
-                    "column": 23
-                }
-            }
-        }) : helper)) + "\">\r\n      <strong>" + alias4((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
-            "name": "name",
-            "hash": {},
-            "data": data,
-            "loc": {
-                "start": {
-                    "line": 4,
-                    "column": 14
-                },
-                "end": {
-                    "line": 4,
-                    "column": 22
-                }
-            }
-        }) : helper)) + "</strong> \u2014 " + alias4((helper = (helper = lookupProperty(helpers, "price") || (depth0 != null ? lookupProperty(depth0, "price") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
-            "name": "price",
-            "hash": {},
-            "data": data,
-            "loc": {
-                "start": {
-                    "line": 4,
-                    "column": 34
-                },
-                "end": {
-                    "line": 4,
-                    "column": 43
-                }
-            }
-        }) : helper)) + "$<br>\r\n      " + alias4((helper = (helper = lookupProperty(helpers, "description") || (depth0 != null ? lookupProperty(depth0, "description") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
-            "name": "description",
-            "hash": {},
-            "data": data,
-            "loc": {
-                "start": {
-                    "line": 5,
-                    "column": 6
-                },
-                "end": {
-                    "line": 5,
-                    "column": 21
-                }
-            }
-        }) : helper)) + "\r\n      <button class=\"delete-btn\">Delete</button>\r\n    </li>\r\n";
-    },
-    "compiler": [
-        8,
-        ">= 4.3.0"
-    ],
-    "main": function(container, depth0, helpers, partials, data) {
-        var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
-            if (Object.prototype.hasOwnProperty.call(parent, propertyName)) return parent[propertyName];
-            return undefined;
-        };
-        return "<ul>\r\n" + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, depth0, {
-            "name": "each",
-            "hash": {},
-            "fn": container.program(1, data, 0),
-            "inverse": container.noop,
-            "data": data,
-            "loc": {
-                "start": {
-                    "line": 2,
-                    "column": 2
-                },
-                "end": {
-                    "line": 8,
-                    "column": 11
-                }
-            }
-        })) != null ? stack1 : "") + "</ul>\r\n";
-    },
-    "useData": true
-});
-exports.default = templateFunction;
-
-},{"handlebars":"9pFby","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"9pFby":[function(require,module,exports,__globalThis) {
+},{}],"9pFby":[function(require,module,exports,__globalThis) {
 'use strict';
 exports.__esModule = true;
 // istanbul ignore next
@@ -12061,6 +11973,6 @@ var isSourceNode = "$$$isSourceNode$$$";
 };
 exports.SourceNode = SourceNode;
 
-},{"a07d2c2c4b11c39f":"fWPsq","18d5ff036a08fa06":"5Iq0C"}]},["jRuxe","jOXmm"], "jOXmm", "parcelRequire94c2", {})
+},{"a07d2c2c4b11c39f":"fWPsq","18d5ff036a08fa06":"5Iq0C"}]},["lpzWn","jOXmm"], "jOXmm", "parcelRequire94c2", {})
 
 //# sourceMappingURL=parcel-handlebars-project.e02fbd41.js.map
