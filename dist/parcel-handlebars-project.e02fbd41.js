@@ -207,11 +207,11 @@
       });
     }
   }
-})({"kxwl6":[function(require,module,exports,__globalThis) {
+})({"lpzWn":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 1234;
+var HMR_SERVER_PORT = 3000;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -746,7 +746,7 @@ app.addEventListener('click', (e)=>{
 });
 render();
 
-},{"./data.js":"fFIED","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","handlebars":"9pFby"}],"fFIED":[function(require,module,exports,__globalThis) {
+},{"./data.js":"fFIED","handlebars":"9pFby","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"fFIED":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "products", ()=>products);
@@ -11973,6 +11973,6 @@ var isSourceNode = "$$$isSourceNode$$$";
 };
 exports.SourceNode = SourceNode;
 
-},{"a07d2c2c4b11c39f":"fWPsq","18d5ff036a08fa06":"5Iq0C"}]},["kxwl6","jOXmm"], "jOXmm", "parcelRequire94c2", {})
+},{"a07d2c2c4b11c39f":"fWPsq","18d5ff036a08fa06":"5Iq0C"}]},["lpzWn","jOXmm"], "jOXmm", "parcelRequire94c2", {})
 
 //# sourceMappingURL=parcel-handlebars-project.e02fbd41.js.map
